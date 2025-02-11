@@ -4,7 +4,7 @@ export default MyProps;
 //****************************************************//
 
 // 1st way  pass all properties in function parameter in {} braces
-function MyProps({ name, message, age }) {
+function MyProps({ name, message, age, seat }) {
   return (
     <div>
       <h3>
@@ -14,6 +14,8 @@ function MyProps({ name, message, age }) {
         meaasge # {message}
         <br></br>
         Age # {age}
+        <br></br>
+        Seat Number # {seat}
       </h3>
     </div>
   );

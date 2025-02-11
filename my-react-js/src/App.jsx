@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
-
+  const seatNumbers = [3, 5, 7];
   return (
     <>
       <div>
@@ -32,7 +32,12 @@ function App() {
       </p>
 
       <Hello></Hello>
-      <MyProps name="sachin" message="Take care" age="25"></MyProps>
+      <MyProps
+        name="sachin"
+        message="Take care"
+        age="25"
+        seat={seatNumbers}
+      ></MyProps>
     </>
   );
 }
