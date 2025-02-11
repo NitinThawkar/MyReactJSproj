@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Hello from "./components/Hello";
+import MyProps from "./components/myProps";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -31,6 +32,7 @@ function App() {
       </p>
 
       <Hello></Hello>
+      <MyProps name="sachin" message="Take care" age="25"></MyProps>
     </>
   );
 }
