@@ -2,6 +2,7 @@ import { useState } from "react";
 import Hello from "./components/Hello";
 import MyProps from "./components/myProps";
 import MyPropsAsObjectDataPass from "./components/MyPropsAsObject";
+import RenderingArraysLists from "./components/RenderingArraysLists";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -18,6 +19,22 @@ function App() {
 
   return (
     <>
+      <hr></hr>
+      <Hello></Hello>
+      <hr></hr>
+      <MyProps
+        name="sachin"
+        message="Take care"
+        age="25"
+        seat={seatNumbers}
+      ></MyProps>
+      <hr></hr>
+      <MyPropsAsObjectDataPass person={myObj}></MyPropsAsObjectDataPass>
+      <hr></hr>
+      <RenderingArraysLists></RenderingArraysLists>
+      <hr></hr>
+      <hr></hr>
+      <hr></hr>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -38,15 +55,6 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-
-      <Hello></Hello>
-      <MyProps
-        name="sachin"
-        message="Take care"
-        age="25"
-        seat={seatNumbers}
-      ></MyProps>
-      <MyPropsAsObjectDataPass person={myObj}></MyPropsAsObjectDataPass>
     </>
   );
 }
