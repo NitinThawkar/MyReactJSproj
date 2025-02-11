@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Hello from "./components/Hello";
 import MyProps from "./components/myProps";
+import MyPropsAsObjectDataPass from "./components/MyPropsAsObject";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -8,6 +9,13 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
   const seatNumbers = [3, 5, 7];
+  const myObj = {
+    name: "Rama",
+    message: "getwell soon",
+    age: 2305,
+    seat: seatNumbers,
+  };
+
   return (
     <>
       <div>
@@ -38,6 +46,7 @@ function App() {
         age="25"
         seat={seatNumbers}
       ></MyProps>
+      <MyPropsAsObjectDataPass person={myObj}></MyPropsAsObjectDataPass>
     </>
   );
 }
