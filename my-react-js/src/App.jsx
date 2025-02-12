@@ -3,7 +3,7 @@ import Hello from "./components/HelloAndEvent";
 import MyProps from "./components/myProps";
 import MyPropsAsObjectDataPass from "./components/MyPropsAsObject";
 import RenderingArraysLists from "./components/RenderingArraysLists";
-import ConditionalRendering from "./components/ConditionalRendering";
+import ConditionalRendering from "./components/ConditionalRenderingAndStyle";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
