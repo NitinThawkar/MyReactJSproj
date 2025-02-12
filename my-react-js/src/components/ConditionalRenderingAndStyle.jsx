@@ -4,6 +4,10 @@
 {
   /* This is only work in component  block in React */
 }
+//*****************************************************************************************************************************//
+
+// refering to styles in file
+import "../CSS/MyStyle.css";
 
 const textStyleObj = { color: "blue", fontSize: "40px" };
 export default function ConditionalRendering() {
@@ -22,6 +26,10 @@ export default function ConditionalRendering() {
           <pre style={textStyleObj}>
             {" "}
             This text using inline style using object
+          </pre>
+          {/* This is inline style using className (camel case notation) */}
+          <pre className="header">
+            This text external style using className (camel case notation)
           </pre>
         </h3>
       </>
