@@ -12,6 +12,7 @@ function sum(a, b) {
   console.log("Sum of a and b is : ", a + b);
 }
 
+/* Hello component  Start */
 function Hello() {
   /* same function greeting also defined abow */
   function greeting() {
