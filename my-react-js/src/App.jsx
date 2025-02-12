@@ -4,6 +4,7 @@ import MyProps from "./components/myProps";
 import MyPropsAsObjectDataPass from "./components/MyPropsAsObject";
 import RenderingArraysLists from "./components/RenderingArraysLists";
 import ConditionalRendering from "./components/ConditionalRenderingAndStyle";
+import MyState from "./components/MyState";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -36,6 +37,7 @@ function App() {
       <hr></hr>
       <ConditionalRendering></ConditionalRendering>
       <hr></hr>
+      <MyState></MyState>
       <hr></hr>
       <hr></hr>
       <div>
