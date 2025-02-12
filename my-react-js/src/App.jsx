@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Hello from "./components/Hello";
+import Hello from "./components/HelloAndEvent";
 import MyProps from "./components/myProps";
 import MyPropsAsObjectDataPass from "./components/MyPropsAsObject";
 import RenderingArraysLists from "./components/RenderingArraysLists";
