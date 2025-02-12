@@ -3,6 +3,7 @@ import Hello from "./components/HelloAndEvent";
 import MyProps from "./components/myProps";
 import MyPropsAsObjectDataPass from "./components/MyPropsAsObject";
 import RenderingArraysLists from "./components/RenderingArraysLists";
+import ConditionalRendering from "./components/ConditionalRendering";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -32,6 +33,8 @@ function App() {
       <MyPropsAsObjectDataPass person={myObj}></MyPropsAsObjectDataPass>
       <hr></hr>
       <RenderingArraysLists></RenderingArraysLists>
+      <hr></hr>
+      <ConditionalRendering></ConditionalRendering>
       <hr></hr>
       <hr></hr>
       <hr></hr>
