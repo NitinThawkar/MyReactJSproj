@@ -5,6 +5,7 @@ import MyPropsAsObjectDataPass from "./components/MyPropsAsObject";
 import RenderingArraysLists from "./components/RenderingArraysLists";
 import ConditionalRendering from "./components/ConditionalRenderingAndStyle";
 import MyState from "./components/MyState";
+import MyFormInput from "./components/FormInput";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -39,6 +40,7 @@ function App() {
       <hr></hr>
       <MyState></MyState>
       <hr></hr>
+      <MyFormInput></MyFormInput>
       <hr></hr>
       <div>
         <a href="https://vite.dev" target="_blank">
