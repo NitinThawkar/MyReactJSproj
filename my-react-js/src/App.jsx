@@ -5,7 +5,7 @@ import MyPropsAsObjectDataPass from "./components/MyPropsAsObject";
 import RenderingArraysLists from "./components/RenderingArraysLists";
 import ConditionalRendering from "./components/ConditionalRenderingAndStyle";
 import MyState from "./components/MyState";
-import MyFormInput from "./components/FormInput";
+import MyFormInput from "./components/FormInputAndEvent";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
