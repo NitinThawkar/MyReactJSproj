@@ -9,6 +9,7 @@ import MyFormInput from "./components/FormInputAndEvent";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import MuiCard from "./MuiComponents/MuiCard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <>
+    <MuiCard></MuiCard>
       <hr></hr>
       <Hello></Hello>
       <hr></hr>
