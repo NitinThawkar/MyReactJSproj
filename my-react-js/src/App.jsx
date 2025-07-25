@@ -11,7 +11,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import MuiCard from "./MuiComponents/MuiCard";
 import MuiModal from "./MuiComponents/MuiModal";
-
+import MuiParentModal from "./MuiComponents/MuiModalNestedChild";
 function App() {
   const [count, setCount] = useState(0);
   const seatNumbers = [3, 5, 7];
@@ -24,11 +24,13 @@ function App() {
 
   return (
     <>
-    <MuiCard></MuiCard>
-    <MuiModal/>
-      <hr></hr>
-      <Hello></Hello>
-      <hr></hr>
+      <MuiCard />
+      <MuiModal />
+      <MuiParentModal />
+
+      <hr />
+      <Hello />
+      <hr />
       <MyProps
         name="sachin"
         message="Take care"
