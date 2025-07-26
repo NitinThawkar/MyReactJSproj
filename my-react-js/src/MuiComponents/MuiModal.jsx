@@ -44,6 +44,7 @@ function MuiModal() {
             variant="contained"
             color="error"
             onClick={() => setOpen(false)}
+            sx={{ position: "absolute", top: 8, right: 8 }}
           >
             Close
           </Button>
