@@ -12,6 +12,8 @@ import "./App.css";
 import MuiCard from "./MuiComponents/MuiCard";
 import MuiModal from "./MuiComponents/MuiModal";
 import MuiParentModal from "./MuiComponents/MuiModalNestedChild";
+import StateHookTest from "./components/HookTestPractice/StateHookTest";
+import ReducerHookTest from "./components/HookTestPractice/ReducerHookTest";
 function App() {
   const [count, setCount] = useState(0);
   const seatNumbers = [3, 5, 7];
@@ -48,6 +50,11 @@ function App() {
       <hr></hr>
       <MyFormInput></MyFormInput>
       <hr></hr>
+      <StateHookTest></StateHookTest>
+      <hr></hr>
+      <ReducerHookTest></ReducerHookTest>
+      <hr></hr>
+      {/* Vite + React boiler plate code */}
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
