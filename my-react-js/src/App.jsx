@@ -14,6 +14,7 @@ import MuiModal from "./MuiComponents/MuiModal";
 import MuiParentModal from "./MuiComponents/MuiModalNestedChild";
 import StateHookTest from "./components/HookTestPractice/StateHookTest";
 import ReducerHookTest from "./components/HookTestPractice/ReducerHookTest";
+import EffectHookTest from "./components/HookTestPractice/EffectHookTest";
 function App() {
   const [count, setCount] = useState(0);
   const seatNumbers = [3, 5, 7];
@@ -53,6 +54,8 @@ function App() {
       <StateHookTest></StateHookTest>
       <hr></hr>
       <ReducerHookTest></ReducerHookTest>
+      <hr></hr>
+      <EffectHookTest></EffectHookTest>
       <hr></hr>
       {/* Vite + React boiler plate code */}
       <div>
