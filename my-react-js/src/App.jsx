@@ -17,6 +17,7 @@ import ReducerHookTest from "./components/HookTestPractice/ReducerHookTest";
 import EffectHookTest from "./components/HookTestPractice/EffectHookTest";
 import UseRefHookTest from "./components/HookTestPractice/UseRefHookTest";
 import ParentCompA from "./components/HookTestPractice/PropAndStateLift/ParentCompA";
+import UseIDHookTest from "./components/HookTestPractice/UseIDHookTest";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -61,6 +62,8 @@ function App() {
       <EffectHookTest></EffectHookTest>
       <hr></hr>
       <UseRefHookTest></UseRefHookTest>
+      <hr></hr>
+      <UseIDHookTest></UseIDHookTest>
       <hr></hr>
       {/* Vite + React boiler plate code */}
       <ParentCompA></ParentCompA>
