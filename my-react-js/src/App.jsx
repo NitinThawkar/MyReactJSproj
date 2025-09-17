@@ -15,7 +15,9 @@ import MuiParentModal from "./MuiComponents/MuiModalNestedChild";
 import StateHookTest from "./components/HookTestPractice/StateHookTest";
 import ReducerHookTest from "./components/HookTestPractice/ReducerHookTest";
 import EffectHookTest from "./components/HookTestPractice/EffectHookTest";
+import UseRefHookTest from "./components/HookTestPractice/UseRefHookTest";
 import ParentCompA from "./components/HookTestPractice/PropAndStateLift/ParentCompA";
+
 function App() {
   const [count, setCount] = useState(0);
   const seatNumbers = [3, 5, 7];
@@ -58,8 +60,12 @@ function App() {
       <hr></hr>
       <EffectHookTest></EffectHookTest>
       <hr></hr>
+      <UseRefHookTest></UseRefHookTest>
+      <hr></hr>
       {/* Vite + React boiler plate code */}
       <ParentCompA></ParentCompA>
+
+
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
