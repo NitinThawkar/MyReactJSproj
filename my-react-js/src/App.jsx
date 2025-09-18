@@ -19,6 +19,7 @@ import UseRefHookTest from "./components/HookTestPractice/UseRefHookTest";
 import ParentCompA from "./components/HookTestPractice/PropAndStateLift/ParentCompA";
 import UseImperativeHandleTest from "./components/HookTestPractice/useImperativeHandleTest";
 import UseIDHookTest from "./components/HookTestPractice/UseIDHookTest";
+import UseDebugValueTest from "./components/HookTestPractice/UseDebugValueTest";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -66,7 +67,9 @@ function App() {
       <hr></hr>
       <UseIDHookTest></UseIDHookTest>
       <hr></hr>
-      <UseImperativeHandleTest></UseImperativeHandleTest> 
+      <UseImperativeHandleTest></UseImperativeHandleTest>
+      <hr></hr>
+      <UseDebugValueTest></UseDebugValueTest>
       <hr></hr> 
       {/* Vite + React boiler plate code */}
       <ParentCompA></ParentCompA>
