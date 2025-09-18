@@ -13,7 +13,7 @@ function UseDeferredValueTest() {
 
   return (
     <>
-      <div>UseDeferredValueTest</div>
+      <h2>UseDeferredValueTest</h2>
       <input type="text" value={value} onChange={changeHandler} />
       <ChildSerchData value={value}></ChildSerchData>
     </>

@@ -26,7 +26,7 @@ function UseRefHookTest() {
   }
   return (
     <>
-      <div>UseRefHook</div>
+      <h2>UseRefHook</h2>
       <input
         type="text"
         value={myname}

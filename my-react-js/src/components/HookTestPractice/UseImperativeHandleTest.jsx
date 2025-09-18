@@ -12,7 +12,7 @@ function UseImperativeHandleTest() {
 
   return (
     <>
-      <div>UseImperativeHandleTest</div>
+      <h2>UseImperativeHandleTest</h2>
 
       <button onClick={() => childRef.current.callHello()}>
         Trigger Child Hello

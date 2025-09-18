@@ -11,7 +11,7 @@ function UseDebugValueTest() {
 
   return (
     <>
-    <div>UseDebugValueTest</div>
+    <h2>UseDebugValueTest</h2>
 
     <p>Check in React Dev Tool</p>
     <p>We can not see useDebugValue in console</p>

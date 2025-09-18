@@ -14,12 +14,14 @@ export default function ParentCompA() {
 
   return (
     <>
+      <h2> prop : passing data from parent to child and State lift</h2>
+      <h2> State lift : passing data from child to parent </h2>
       <div>ParentCompA</div>
       <p>Parent Count: {count}</p>
       <ChildCompB name="sachin"></ChildCompB>
       <ChildCompC myname="Nitin" Age={30} increment={setCount}></ChildCompC>
       <ChildCompD name="Nitin" Age={30} isPerson={true}></ChildCompD>
+      <hr></hr>
     </>
   );
 }
- 

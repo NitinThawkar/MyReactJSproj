@@ -34,7 +34,7 @@ function EffectHookTest() {
 
   return (
     <>
-      <h3>useEffect HookTest</h3>
+      <h2>useEffect HookTest</h2>
       <button onClick={testClick}>Test Click</button>
 
       <button onClick={StateChange}>StateChange</button>

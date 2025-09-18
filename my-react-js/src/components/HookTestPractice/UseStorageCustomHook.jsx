@@ -24,6 +24,7 @@ const UseStorageCustomHook = () => {
 
   return (
     <>
+       <h2>CustomHook</h2>
       <div>UseStorageCustomHook</div>
       <div className="home">
         <input type="text" ref={inputRef} />

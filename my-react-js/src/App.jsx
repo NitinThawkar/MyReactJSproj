@@ -85,7 +85,7 @@ function App() {
       <hr></hr>
       {/* Vite + React boiler plate code */}
       <ParentCompA></ParentCompA>
-
+<hr></hr>
 
       <div>
         <a href="https://vite.dev" target="_blank">

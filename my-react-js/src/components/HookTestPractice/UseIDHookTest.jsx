@@ -9,7 +9,7 @@ function UseIDHookTest() {
   console.log("id", elecid);
   return (
     <>
-      <div>UseIDHookTest</div>
+      <h2>UseIDHookTest</h2>
       {frute.map((item, idx) => {
         return <p id={`${elecid}-${idx}`}>{item}</p>;
       })}   

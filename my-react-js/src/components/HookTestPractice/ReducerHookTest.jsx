@@ -35,7 +35,7 @@ function ReducerHookTest() {
   return (
     <>
       {" "}
-      <div>ReducerHookTest</div>
+      <h2>ReducerHookTest</h2>
       <h4>{state.counter}</h4>
       <button onClick={increment}>Increment</button>
       <button onClick={() => mydispatch({ type: "increment" })}>
