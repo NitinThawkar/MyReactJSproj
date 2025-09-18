@@ -1,7 +1,9 @@
 {
   /* This is example will use child component B and child component C */
 }
-
+//this example demonstrates prop ,passing data from parent to child component
+//and state lifting, passing function from parent to child component to update parent state from child component
+//here we pass setCount to achive state lifting
 import React from "react";
 import { useState } from "react";
 import ChildCompB from "./ChildCompB";
