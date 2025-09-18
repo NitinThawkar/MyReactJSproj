@@ -21,6 +21,7 @@ import UseImperativeHandleTest from "./components/HookTestPractice/useImperative
 import UseIDHookTest from "./components/HookTestPractice/UseIDHookTest";
 import UseDebugValueTest from "./components/HookTestPractice/UseDebugValueTest";
 import UseTransitionHookTest from "./components/HookTestPractice/UseTransitionHookTest";
+import UseDeferredValueTest from "./components/HookTestPractice/UseDeferredValueTest";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -73,6 +74,8 @@ function App() {
       <UseDebugValueTest></UseDebugValueTest>
       <hr></hr> 
       <UseTransitionHookTest></UseTransitionHookTest>
+      <hr></hr>
+      <UseDeferredValueTest></UseDeferredValueTest>
       <hr></hr>
       {/* Vite + React boiler plate code */}
       <ParentCompA></ParentCompA>
