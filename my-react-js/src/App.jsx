@@ -17,6 +17,7 @@ import ReducerHookTest from "./components/HookTestPractice/ReducerHookTest";
 import EffectHookTest from "./components/HookTestPractice/EffectHookTest";
 import UseRefHookTest from "./components/HookTestPractice/UseRefHookTest";
 import ParentCompA from "./components/HookTestPractice/PropAndStateLift/ParentCompA";
+import UseImperativeHandleTest from "./components/HookTestPractice/useImperativeHandleTest";
 import UseIDHookTest from "./components/HookTestPractice/UseIDHookTest";
 
 function App() {
@@ -65,6 +66,8 @@ function App() {
       <hr></hr>
       <UseIDHookTest></UseIDHookTest>
       <hr></hr>
+      <UseImperativeHandleTest></UseImperativeHandleTest> 
+      <hr></hr> 
       {/* Vite + React boiler plate code */}
       <ParentCompA></ParentCompA>
 
