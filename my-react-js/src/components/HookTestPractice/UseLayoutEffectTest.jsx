@@ -14,6 +14,7 @@ function UseLayoutEffectTest() {
 
   return (
     <>
+    <div>UseLayoutEffectTest</div>
       <div ref={boxRef} style={{ border: "2px solid red", padding: "16px", width: "350px" }}>
         {textContent}
       </div>
