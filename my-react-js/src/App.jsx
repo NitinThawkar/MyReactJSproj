@@ -4,15 +4,15 @@ import "./App.css";
 
 import AllAdvanceHookTestPractice from "./components/AdvanceHookTestPractice/AllAdvanceHookTestPractice";
 import OtherTestComponent from "./components/OtherTestComponent/OtherTestComponent";
-import AllReactHookTestPractic from "./components/HookTestPractice/AllReactHookTestPractic"; 
+import AllReactHookTestPractice from "./components/HookTestPractice/AllReactHookTestPractice"; 
 
 
 function App() {
   return (
     <>
-      {/* <OtherTestComponent />
+      <OtherTestComponent />
       <hr />
-      <AllReactHookTestPractic /> */}
+      <AllReactHookTestPractice />
       <hr />
       <AllAdvanceHookTestPractice />
       <hr />
