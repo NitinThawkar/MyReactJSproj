@@ -1,6 +1,7 @@
 import React from "react";
 import ReactMemoParent from "./ReactMemoParent";
 import ReactMemoParentAA from "./ReactMemoParentAA";
+import ReactMemoCustom from "./ReactMemoCustom";  
 
 function ReactMemoAdvanceMain() {
   return (
@@ -10,6 +11,10 @@ function ReactMemoAdvanceMain() {
         <ReactMemoParent />
         <hr />
         <ReactMemoParentAA />
+        <hr />
+        {/* if certain prop not change then only component will not re-render
+           use prevProps and nextProps to compare specific props for re-rendering */}
+        <ReactMemoCustom />
       </div>
     </>
   );

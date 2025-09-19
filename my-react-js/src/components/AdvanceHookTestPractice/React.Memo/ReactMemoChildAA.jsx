@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ReactMemoChildAA = React.memo(function ReactMemoChildAA({ firstCount }) {
+const ReactMemoChildAA = React.memo(function ReactMemoChildAA({ firstCount, person }) {
     console.log("ReactMemoChildAA component is re-rendered");
     return (
         <div>
