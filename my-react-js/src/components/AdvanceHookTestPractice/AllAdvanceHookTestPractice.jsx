@@ -4,7 +4,7 @@ import ReactMemoAdvanceMain from './React.Memo/ReactMemoAdvanceMain'
 function AllAdvanceHookTestPractice() {
   return (
     <>
-      <h1>All Advance Hook Test Practic</h1>
+      <h1>All Advance Hook Test Practice</h1>
       <ReactMemoAdvanceMain></ReactMemoAdvanceMain>
       <hr/>
       <UseMemoHookAdvanceMain></UseMemoHookAdvanceMain>

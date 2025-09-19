@@ -15,7 +15,7 @@ import UseMemoHookTest from "./UseMemoHookTest";
 function AllReactHookTestPractice() {
   return (
     <>
-      <div>AllReactHookTestPractic</div>
+      <h1>All React Hook Test Practice</h1>
       <StateHookTest />
       <hr />
       <ReducerHookTest />
