@@ -21,8 +21,8 @@ function UseCallBackNeed() {
 
   return (
     <div className="container">
-      <h1>Count: {count}</h1>
-      <h1>Other Count: {otherCount}</h1>
+      <h3>Count: {count}</h3>
+      <h3>Other Count: {otherCount}</h3>
 
       <button onClick={() => setOtherCount(otherCount + 1)}>
         Increment Other Count
