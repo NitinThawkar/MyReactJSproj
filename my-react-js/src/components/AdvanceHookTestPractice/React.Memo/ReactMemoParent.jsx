@@ -2,6 +2,7 @@ import { useState } from "react";
 import ReactMemoChild from "./ReactMemoChild";
 
 function ReactMemoParent() {
+    console.log("Parent component is re-rendered");
     const [count, setCount] = useState(0);
     const [msg, setMsg] = useState('');
     

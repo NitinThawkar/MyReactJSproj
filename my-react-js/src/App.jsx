@@ -10,9 +10,9 @@ import AllReactHookTestPractice from "./components/HookTestPractice/AllReactHook
 function App() {
   return (
     <>
-      <OtherTestComponent />
+      {/* <OtherTestComponent />
       <hr />
-      <AllReactHookTestPractice />
+      <AllReactHookTestPractice /> */}
       <hr />
       <AllAdvanceHookTestPractice />
       <hr />
