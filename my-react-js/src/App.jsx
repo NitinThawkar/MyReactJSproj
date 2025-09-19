@@ -24,6 +24,7 @@ import UseTransitionHookTest from "./components/HookTestPractice/UseTransitionHo
 import UseDeferredValueTest from "./components/HookTestPractice/UseDeferredValueTest";
 import UseLayoutEffectTest from "./components/HookTestPractice/UseLayoutEffectTest";
 import UseStorageCustomHook from "./components/HookTestPractice/UseStorageCustomHook";
+import UseMemoHookTest from "./components/HookTestPractice/UseMemoHookTest";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -82,6 +83,8 @@ function App() {
       <UseLayoutEffectTest></UseLayoutEffectTest>
       <hr></hr>
       <UseStorageCustomHook></UseStorageCustomHook>
+      <hr></hr>
+      <UseMemoHookTest ExpLogicCount={1000000000}></UseMemoHookTest>
       <hr></hr>
       {/* Vite + React boiler plate code */}
       <ParentCompA></ParentCompA>
