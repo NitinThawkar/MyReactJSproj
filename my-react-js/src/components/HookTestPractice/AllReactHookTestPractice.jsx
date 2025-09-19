@@ -12,10 +12,10 @@ import UseLayoutEffectTest from "./UseLayoutEffectTest";
 import UseStorageCustomHook from "./UseStorageCustomHook";
 import UseMemoHookTest from "./UseMemoHookTest";
 
-function AllReactHookTestPractic() {
+function AllReactHookTestPractice() {
   return (
     <>
-      <div>AllReactHookTestPractic</div>
+      <h1>All React Hook Test Practice</h1>
       <StateHookTest />
       <hr />
       <ReducerHookTest />
@@ -45,4 +45,4 @@ function AllReactHookTestPractic() {
   );
 }
 
-export default AllReactHookTestPractic;
+export default AllReactHookTestPractice;

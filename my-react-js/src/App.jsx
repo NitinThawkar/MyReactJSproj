@@ -2,9 +2,9 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-import AllAdvanceHookTestPractic from "./components/AdvanceHookTestPractic/AllAdvanceHookTestPractic";
+import AllAdvanceHookTestPractice from "./components/AdvanceHookTestPractice/AllAdvanceHookTestPractice";
 import OtherTestComponent from "./components/OtherTestComponent/OtherTestComponent";
-import AllReactHookTestPractic from "./components/HookTestPractice/AllReactHookTestPractic"; 
+import AllReactHookTestPractice from "./components/HookTestPractice/AllReactHookTestPractice"; 
 
 
 function App() {
@@ -12,9 +12,9 @@ function App() {
     <>
       <OtherTestComponent />
       <hr />
-      <AllReactHookTestPractic />
+      <AllReactHookTestPractice />
       <hr />
-      <AllAdvanceHookTestPractic />
+      <AllAdvanceHookTestPractice />
       <hr />
       <div>
         <a href="https://vite.dev" target="_blank">

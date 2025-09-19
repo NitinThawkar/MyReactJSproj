@@ -1,0 +1,5 @@
+const ReactMemoChild = ({ count }) => {
+    console.log("Counter component is re-rendered");
+    return <h2>Count: {count}</h2>;
+};
+export default ReactMemoChild;

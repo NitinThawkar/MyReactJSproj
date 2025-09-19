@@ -19,7 +19,7 @@ function OtherTestComponent() {
   };
   return (
     <>
-      <div>Other Test Component</div>
+      <h1>Other Test Component Practice</h1>
       <MuiCard />
       <MuiModal />
       <MuiParentModal />
