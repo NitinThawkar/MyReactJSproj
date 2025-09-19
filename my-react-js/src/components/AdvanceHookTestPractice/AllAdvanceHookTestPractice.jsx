@@ -1,6 +1,7 @@
 import React from 'react'
 import UseMemoHookAdvanceMain from './UseMemoHook/UseMemoHookAdvanceMain'
 import ReactMemoAdvanceMain from './React.Memo/ReactMemoAdvanceMain'
+import UseCallbackHookAdvanceMain from './UseCallbackHook/UseCallbackHookAdvanceMain' 
 function AllAdvanceHookTestPractice() {
   return (
     <>
@@ -8,6 +9,8 @@ function AllAdvanceHookTestPractice() {
       <ReactMemoAdvanceMain></ReactMemoAdvanceMain>
       <hr/>
       <UseMemoHookAdvanceMain></UseMemoHookAdvanceMain>
+      <hr/>
+      <UseCallbackHookAdvanceMain></UseCallbackHookAdvanceMain>
     </>
   )
 }
