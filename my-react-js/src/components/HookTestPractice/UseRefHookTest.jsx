@@ -38,6 +38,7 @@ function UseRefHookTest() {
       <input
         type="text"
         value={myname}
+        onChange={(e) => setMyName(e.target.value)}
         ref={elementRef}
       />
       <button onClick={focusInput}>Focus Input</button>

@@ -4,7 +4,7 @@ function ChildCompC({myname,Age,increment}) {
  
   return (
     <>
-      <p>Hi I am getting value from parent as prop as prop destructuring in component function in curly braces <h3>{myname}</h3></p>
+      <p>Hi I am getting value from parent as prop as prop destructuring in component function in curly braces <span>{myname}</span></p>
       <button id="increment-5" onClick={() => increment(5)}>Increment Parent Count</button>
       <button id="increment-1" onClick={() => increment((prevCount) => prevCount + 1)}>Increment Parent Count</button>
 

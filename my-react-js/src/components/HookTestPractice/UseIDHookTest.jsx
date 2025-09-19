@@ -11,7 +11,7 @@ function UseIDHookTest() {
     <>
       <h2>UseIDHookTest</h2>
       {frute.map((item, idx) => {
-        return <p id={`${elecid}-${idx}`}>{item}</p>;
+        return <p key={idx} id={`${elecid}-${idx}`}>{item}</p>;
       })}   
 
      <input id={elecid} />
