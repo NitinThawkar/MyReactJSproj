@@ -3,7 +3,7 @@ import Fruit from "./Fruit";
 export default function RenderingArraysLists() {
   const fruits = ["apple", "banana", "mango", "orange"];
 
-  const friitsList = fruits.map((fruit) => <h3>{fruit}</h3>);
+  const friitsList = fruits.map((fruit) => <h3 key={fruit}>{fruit}</h3>);
 
   const fruitCart = [
     { name: "banana", price: 20, quantity: 2, emoji: "🍌🍌🍌" },
@@ -26,7 +26,7 @@ export default function RenderingArraysLists() {
       #redaring fruits array
       <div>
         {fruits.map((fruit) => (
-          <h3>{fruit}</h3>
+          <h3 key={fruit}>{fruit}</h3>
         ))}
       </div>
       ---------------------------------------------<br></br>

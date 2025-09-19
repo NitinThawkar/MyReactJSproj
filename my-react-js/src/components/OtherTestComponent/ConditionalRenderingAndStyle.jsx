@@ -7,7 +7,7 @@
 //*****************************************************************************************************************************//
 
 // refering to styles in file
-import "../CSS/MyStyle.css";
+import "../../CSS/MyStyle.css";
 
 const textStyleObj = { color: "blue", fontSize: "40px" };
 export default function ConditionalRendering() {
