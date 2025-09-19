@@ -3,7 +3,7 @@ import React from 'react'
 function AllAdvanceHookTestPractic() {
   return (
     <>
-      <div>All Advance Hook Test Practic</div>
+      <h1>All Advance Hook Test Practic</h1>
     </>
   )
 }

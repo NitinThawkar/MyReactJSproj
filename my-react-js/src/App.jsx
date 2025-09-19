@@ -10,11 +10,11 @@ import AllReactHookTestPractic from "./components/HookTestPractice/AllReactHookT
 function App() {
   return (
     <>
-      {/* <OtherTestComponent /> */}
+      <OtherTestComponent />
       <hr />
       <AllReactHookTestPractic />
       <hr />
-      {/* <AllAdvanceHookTestPractic /> */}
+      <AllAdvanceHookTestPractic />
       <hr />
       <div>
         <a href="https://vite.dev" target="_blank">
