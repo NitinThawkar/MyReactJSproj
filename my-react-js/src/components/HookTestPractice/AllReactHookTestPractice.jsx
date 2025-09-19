@@ -11,6 +11,7 @@ import UseDeferredValueTest from "./UseDeferredValueTest";
 import UseLayoutEffectTest from "./UseLayoutEffectTest";
 import UseStorageCustomHook from "./UseStorageCustomHook";
 import UseMemoHookTest from "./UseMemoHookTest";
+import UseContextHookTest from "./UseContextHookTest";
 
 function AllReactHookTestPractice() {
   return (
@@ -40,6 +41,8 @@ function AllReactHookTestPractice() {
       <hr />
       <UseMemoHookTest ExpLogicCount={1000000000} />
       <hr />
+      <UseContextHookTest />
+      <hr />  
       <ParentCompA />
     </>
   );
