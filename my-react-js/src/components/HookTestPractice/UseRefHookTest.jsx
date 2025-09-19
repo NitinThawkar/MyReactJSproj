@@ -1,11 +1,11 @@
-//use ref act like instance variable , it will not cause re render of component
-// , it will retain value between renders,wecan use it ti store dom element reference or data
+// useRef acts like an instance variable; it will not cause re-render of the component
+// It will retain value between renders, and can be used to store DOM element references or data
 
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 
 function UseRefHookTest() {
-  const [myname, setMyName] = useState("sachin");
   const [counter, setCounter] = useState(0);
+  const [myname, setMyName] = useState("sachin");
   const counterRef = useRef(0);
   const elementRef = useRef();
 
@@ -20,10 +20,13 @@ function UseRefHookTest() {
   // });
 
   function focusInput() {
-    console.log(elementRef.current);
-    elementRef.current.focus();
-    elementRef.current.value = "Hello";
+    if (elementRef.current) {
+      console.log(elementRef.current);
+      elementRef.current.focus();
+      elementRef.current.value = "Hello";
+    }
   }
+
   return (
     <>
       <h2>UseRefHook</h2>
@@ -36,11 +39,8 @@ function UseRefHookTest() {
         type="text"
         value={myname}
         ref={elementRef}
-
-        //onChange={focusInput}
       />
       <button onClick={focusInput}>Focus Input</button>
-
       <p>My name is {myname}</p>
       <p>Count Ref Value: {counterRef.current}</p>
     </>
