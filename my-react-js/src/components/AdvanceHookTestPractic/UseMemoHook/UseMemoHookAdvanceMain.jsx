@@ -11,9 +11,9 @@ function UseMemoHookAdvanceMain() {
   }
   return (
     <>
-      <h3>Use Advance MemoHook Main</h3>
+      <h3>useMemo Advance MemoHook Main</h3>
       <UseMemoHookAdvanceTest ExpLogicCount={loopcount} />
-      
+
       <button onClick={increase} >Increase Loop Count prop will change and expensive logic will call</button>
 
       <UseMemoParent />
