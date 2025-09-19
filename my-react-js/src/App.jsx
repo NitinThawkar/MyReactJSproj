@@ -1,23 +1,21 @@
-import { useState } from "react";
-import Hello from "./components/Hello";
-import MyProps from "./components/myProps";
-import MyPropsAsObjectDataPass from "./components/MyPropsAsObject";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
-  const seatNumbers = [3, 5, 7];
-  const myObj = {
-    name: "Rama",
-    message: "getwell soon",
-    age: 2305,
-    seat: seatNumbers,
-  };
+import AllAdvanceHookTestPractic from "./components/AdvanceHookTestPractic/AllAdvanceHookTestPractic";
+import OtherTestComponent from "./components/OtherTestComponent/OtherTestComponent";
+import AllReactHookTestPractic from "./components/HookTestPractice/AllReactHookTestPractic"; 
 
+
+function App() {
   return (
     <>
+      <OtherTestComponent />
+      <hr />
+      <AllReactHookTestPractic />
+      <hr />
+      <AllAdvanceHookTestPractic />
+      <hr />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -27,26 +25,9 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-
-      <Hello></Hello>
-      <MyProps
-        name="sachin"
-        message="Take care"
-        age="25"
-        seat={seatNumbers}
-      ></MyProps>
-      <MyPropsAsObjectDataPass person={myObj}></MyPropsAsObjectDataPass>
     </>
   );
 }
