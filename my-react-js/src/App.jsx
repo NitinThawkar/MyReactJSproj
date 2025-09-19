@@ -12,19 +12,8 @@ import "./App.css";
 import MuiCard from "./MuiComponents/MuiCard";
 import MuiModal from "./MuiComponents/MuiModal";
 import MuiParentModal from "./MuiComponents/MuiModalNestedChild";
-import StateHookTest from "./components/HookTestPractice/StateHookTest";
-import ReducerHookTest from "./components/HookTestPractice/ReducerHookTest";
-import EffectHookTest from "./components/HookTestPractice/EffectHookTest";
-import UseRefHookTest from "./components/HookTestPractice/UseRefHookTest";
-import ParentCompA from "./components/HookTestPractice/PropAndStateLift/ParentCompA";
-import UseImperativeHandleTest from "./components/HookTestPractice/useImperativeHandleTest";
-import UseIDHookTest from "./components/HookTestPractice/UseIDHookTest";
-import UseDebugValueTest from "./components/HookTestPractice/UseDebugValueTest";
-import UseTransitionHookTest from "./components/HookTestPractice/UseTransitionHookTest";
-import UseDeferredValueTest from "./components/HookTestPractice/UseDeferredValueTest";
-import UseLayoutEffectTest from "./components/HookTestPractice/UseLayoutEffectTest";
-import UseStorageCustomHook from "./components/HookTestPractice/UseStorageCustomHook";
-import UseMemoHookTest from "./components/HookTestPractice/UseMemoHookTest";
+import AllReactHookTestPractic from "./components/HookTestPractice/AllReactHookTestPractic";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -62,32 +51,9 @@ function App() {
       <hr></hr>
       <MyFormInput></MyFormInput>
       <hr></hr>
-      <StateHookTest></StateHookTest>
-      <hr></hr>
-      <ReducerHookTest></ReducerHookTest>
-      <hr></hr>
-      <EffectHookTest></EffectHookTest>
-      <hr></hr>
-      <UseRefHookTest></UseRefHookTest>
-      <hr></hr>
-      <UseIDHookTest></UseIDHookTest>
-      <hr></hr>
-      <UseImperativeHandleTest></UseImperativeHandleTest>
-      <hr></hr>
-      <UseDebugValueTest></UseDebugValueTest>
-      <hr></hr> 
-      <UseTransitionHookTest></UseTransitionHookTest>
-      <hr></hr>
-      <UseDeferredValueTest></UseDeferredValueTest>
-      <hr></hr>
-      <UseLayoutEffectTest></UseLayoutEffectTest>
-      <hr></hr>
-      <UseStorageCustomHook></UseStorageCustomHook>
-      <hr></hr>
-      <UseMemoHookTest ExpLogicCount={1000000000}></UseMemoHookTest>
-      <hr></hr>
+      <AllReactHookTestPractic></AllReactHookTestPractic>
       {/* Vite + React boiler plate code */}
-      <ParentCompA></ParentCompA>
+      
 <hr></hr>
 
       <div>
