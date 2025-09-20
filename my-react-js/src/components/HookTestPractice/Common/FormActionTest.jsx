@@ -1,6 +1,6 @@
 import React from "react";
 
-const FormActionTest = (prevState, formData) => {
+const FormActionTest = async (prevState, formData) => {
   console.log("form data", formData);
   const name = formData.get("name");
   const age = formData.get("age");
