@@ -1,6 +1,10 @@
 import React from "react";
 
+const wait = (delay) => {
+  return new Promise((res) => setTimeout(res, delay));
+};
 const FormActionTest = async (prevState, formData) => {
+  await wait(3000);
   console.log("form data", formData);
   const name = formData.get("name");
   const age = formData.get("age");

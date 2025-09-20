@@ -10,7 +10,7 @@ const UseFormStateHookTest = () => {
   return (
     <>
       <h2> useFormState Hook UseFormStateHookTest student information</h2>
-      <form method="post" action={handleChange}>
+      <form action={handleChange}>
         <input type="text" name="name" placeholder="Enter Name" /> <br />
         <input type="text" name="age" placeholder="Enter Age" /> <br />
         <input type="text" name="email" placeholder="Enter Email" /> <br />
@@ -33,3 +33,6 @@ export default UseFormStateHookTest;
 // use useActionState is the new combined hook for form state and status.
 // useFormState has been renamed to React.useActionState.
 // useFormStatus has been renamed to React.useActionStatus.
+
+
+// UseFormStateHookTest and useFormStatusHookTest component commented
