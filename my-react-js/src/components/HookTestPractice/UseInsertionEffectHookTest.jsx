@@ -1,3 +1,6 @@
+// useInsertionEffect is a relatively new hook introduced in React 18+ for injecting styles before DOM mutations.
+//  It's mostly used in libraries like styled-components or emotion.
+
 import { useInsertionEffect } from 'react';
 export const UseInsertionEffectHookTest = () => {
     useInsertionEffect(() => {

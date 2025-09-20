@@ -13,6 +13,7 @@ import UseStorageCustomHook from "./UseStorageCustomHook";
 import UseMemoHookTest from "./UseMemoHookTest";
 import UseContextHookTest from "./UseContextHookTest";
 import UseInsertionEffectHookTest from "./UseInsertionEffectHookTest";
+import FormActionTest from "./FormACtionTest";
 
 function AllReactHookTestPractice() {
   return (
@@ -45,6 +46,8 @@ function AllReactHookTestPractice() {
       <UseContextHookTest />
       <hr />
       <UseInsertionEffectHookTest></UseInsertionEffectHookTest>
+      <hr />
+      <FormActionTest />
       <hr />
       <ParentCompA />
     </>
