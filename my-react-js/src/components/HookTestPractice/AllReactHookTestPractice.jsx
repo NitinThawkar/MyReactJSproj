@@ -12,6 +12,7 @@ import UseLayoutEffectTest from "./UseLayoutEffectTest";
 import UseStorageCustomHook from "./UseStorageCustomHook";
 import UseMemoHookTest from "./UseMemoHookTest";
 import UseContextHookTest from "./UseContextHookTest";
+import UseInsertionEffectHookTest from "./UseInsertionEffectHookTest";
 
 function AllReactHookTestPractice() {
   return (
@@ -42,7 +43,9 @@ function AllReactHookTestPractice() {
       <UseMemoHookTest ExpLogicCount={1000000000} />
       <hr />
       <UseContextHookTest />
-      <hr />  
+      <hr />
+      <UseInsertionEffectHookTest></UseInsertionEffectHookTest>
+      <hr />
       <ParentCompA />
     </>
   );
