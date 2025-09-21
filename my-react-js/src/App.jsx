@@ -14,9 +14,7 @@ function App() {
       <hr />
       {/* <AllReactHookTestPractice /> */}
       <hr />
-      {/* <AllAdvanceHookTestPractice /> */}
-
-
+      <AllAdvanceHookTestPractice />
       <hr />
       <UseOptimisticEx />
       <div>
