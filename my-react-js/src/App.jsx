@@ -12,9 +12,9 @@ function App() {
     <>
       {/* <OtherTestComponent /> */}
       <hr />
-      {/* <AllReactHookTestPractice /> */}
+      <AllReactHookTestPractice />
       <hr />
-      <AllAdvanceHookTestPractice />
+      {/* <AllAdvanceHookTestPractice /> */}
       <hr />
       <UseOptimisticEx />
       <div>

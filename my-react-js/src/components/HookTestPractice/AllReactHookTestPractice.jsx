@@ -19,6 +19,7 @@ import UseFormStateHookTest from "./UseFormStateHookTest";
 import UseFormStatusHookTest from "./UseFormStatusHookTest";
 import UseActionStateHookTest from "./UseActionStateHookTest";
 import UseHookTest from "./UseHookTest";
+import UseSyncExternalStoreTest from "./UseSyncExternalStoreTest";
 function AllReactHookTestPractice() {
   return (
     <>
@@ -60,6 +61,9 @@ function AllReactHookTestPractice() {
       <UseActionStateHookTest></UseActionStateHookTest>
       <hr />
       <UseHookTest></UseHookTest>
+
+      <hr />
+      <UseSyncExternalStoreTest></UseSyncExternalStoreTest>
       <hr />
       <ParentCompA />
     </>
