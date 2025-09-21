@@ -5,17 +5,20 @@ import "./App.css";
 import AllAdvanceHookTestPractice from "./components/AdvanceHookTestPractice/AllAdvanceHookTestPractice";
 import OtherTestComponent from "./components/OtherTestComponent/OtherTestComponent";
 import AllReactHookTestPractice from "./components/HookTestPractice/AllReactHookTestPractice"; 
-
+import UseOptimisticEx from "./components/OptimisticHookComp/UseOptimisticEx";
 
 function App() {
   return (
     <>
       {/* <OtherTestComponent /> */}
       <hr />
-      <AllReactHookTestPractice />
+      {/* <AllReactHookTestPractice /> */}
       <hr />
       {/* <AllAdvanceHookTestPractice /> */}
+
+
       <hr />
+      <UseOptimisticEx />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
