@@ -18,7 +18,7 @@ import FormActionTest from "./FormACtionTest";
 import UseFormStateHookTest from "./UseFormStateHookTest";
 import UseFormStatusHookTest from "./UseFormStatusHookTest";
 import UseActionStateHookTest from "./UseActionStateHookTest";
-
+import UseHookTest from "./UseHookTest";
 function AllReactHookTestPractice() {
   return (
     <>
@@ -51,13 +51,15 @@ function AllReactHookTestPractice() {
       <hr />
       <UseInsertionEffectHookTest></UseInsertionEffectHookTest>
       <hr />
-      <FormActionTest />
+      {/* <FormActionTest /> */}
       <hr />
       {/* <UseFormStateHookTest /> */}
       <hr />
       {/* <UseFormStatusHookTest></UseFormStatusHookTest> */}
       <hr />
       <UseActionStateHookTest></UseActionStateHookTest>
+      <hr />
+      <UseHookTest></UseHookTest>
       <hr />
       <ParentCompA />
     </>
