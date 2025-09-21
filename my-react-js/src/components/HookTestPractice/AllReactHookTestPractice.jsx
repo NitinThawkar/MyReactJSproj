@@ -16,6 +16,7 @@ import UseInsertionEffectHookTest from "./UseInsertionEffectHookTest";
 import FormActionTest from "./FormACtionTest";
 
 import UseFormStateHookTest from "./UseFormStateHookTest";
+import UseFormStatusHookTest from "./UseFormStatusHookTest";
 import UseActionStateHookTest from "./UseActionStateHookTest";
 
 function AllReactHookTestPractice() {
@@ -53,6 +54,8 @@ function AllReactHookTestPractice() {
       <FormActionTest />
       <hr />
       {/* <UseFormStateHookTest /> */}
+      <hr />
+      {/* <UseFormStatusHookTest></UseFormStatusHookTest> */}
       <hr />
       <UseActionStateHookTest></UseActionStateHookTest>
       <hr />
